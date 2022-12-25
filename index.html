@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>saira-portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/e512ecf744.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id=header>
+		<div class="container">
+			<nav>
+				
+				<img src="images/name.png" class="logo">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#Portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+			</nav>
+			<div class="header-text">
+				<p><span>PGC</span> holder</p>
+				<h1>Hi,my name is Saira<br>and i love to become a <br><span>Web Developer</span></h1>
+				
+			</div>
+		</div>
+	</div>
+	            <!-- /////////////// about page ///////////-->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/saira.png">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p> Exceptionally well-organized and resourceful Professional with solid academic background in Computer Science; excellent analytical and problem-solving skills, able to handle multiple projects while producing high quality work in a fast-paced, deadline-oriented environment. Self-motivated and an innovative thinker, consistently pursuing new challenges to stretch abilities, expand knowledge, and bring greater returns to employers.
+            </p>
+            <div class="tab-titles">
+            	<p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+            	<p class="tab-links" onclick="opentab('experience')">Experience</p>
+            	<p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+            	<ul>
+            		<li><span>Languages:</span><br>C/C++,JavaScript,java, SQL, HTML/CSS, PHP,Perl etc</li>
+            		<li><span>Applications:</span><br>MS Office,Figma, Adobe Photoshop, CorelDraw, Adobe Dreamweaver etc.</li>
+            		<li><span>Technologies/Editors:</span><br>Win32 API,Design Pattern,UML,OpenGL,MS Access, MySql,MS visual studio/MS Code,Eclipse, NetBean, Matlab,sublime and so on.</li>
+            	</ul>
+            </div>
+            
+             <div class="tab-contents" id="education">
+            	<ul>
+            		<li><span>2015-2018</span><br>Master–Computer Science at IIUI institute</li>
+            		<li><span>2009-2013</span><br>Bachelor–Computer Science at IIUI institute</li>
+            		<li><span>2007-2009</span><br>Intermediate-FSC Pre-Engineering</li>
+            		<li><span>2005-2007</span><br>Matericulation with Science Subjects</li>
+            	</ul>
+            </div>
+            <div class="tab-contents" id="experience">
+            	<ul>
+            		<li><span>2016-2017</span><br>Course/Research Paper</li>
+            		<li><span>2012-2013</span><br>Web Development</li>
+            		<li><span>2009-2012</span><br>Software Development</li>
+            		<li><span>2009-2012</span><br>Database Application Development</li>
+            		
+            		
+            	</ul>
+            </div>
+             
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- --------------------services--------------------- -->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-code"></i>
+				<h2>Web Development/UI design</h2>
+				<p>Fashion design Web- application. Environment: HTML, XML, CSS
+           Built a banking application for managing the Bank Database  Environment: Java, SQL
+           Library Database Management System and Application at IIUI. Environment: Object-Oriented Programming</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-crop"></i>
+				<h2>Database Application Development</h2>
+				<p>Animated Cartoon Application, A Cartoon app using Visual-graphics concept. Environment: OpenGL
+           Calculator Application, Implementation of functions of a Calculator. Environment: Programing Fundamentals C++</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-app-store"></i>
+				<h2>Software Development</h2>
+				<p>C++ programs using analysis of algorithms concept.
+           Implementation of different C++ programs using analysis of algorithms Concept. Environment: C++
+           The C/C++ with GNU tool chain under Linux OS was used as main development platform.
+           OpenGL graphic library</p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<!-- ---------------------portfoilio----------------- -->
+
+
+
+<div id="Portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/software1.png">
+				<div class="layer">
+					<h3>Software App</h3>
+				<p>	This app links people via internet</p>
+				<a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+				
+			
+			</div>
+			<div class="work">
+				<img src="images/ddb.jpg">
+				<div class="layer">
+				<h3>Database App</h3>
+				<p>	We can store, fetch, update and delete data over there</p>
+				<a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+				
+			
+			</div>
+			</div>
+			 <div class="work">
+				<img src="images/web1.png">
+				<div class="layer">
+					<h3>Online shopping app</h3>
+				<p>	Here, we can do everything assessible and can interact with people globally </p>
+				<a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+				
+			
+			</div>
+			</div>
+			
+		</div>
+		<a href="#" class="btn">see more</a>
+	</div>
+</div>
+
+
+
+<!-- -----------------contact------------ -->
+
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-sharp fa-solid fa-paper-plane"></i>sairarizwan33@yahoo.com</p>
+				<p><i class="fa-sharp fa-solid fa-phone"></i>074243174446</p>
+				<div class="social-icons">
+					<a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+					<a href=""><i class="fa-brands fa-twitter"></i></a>
+					<a href=""><i class="fa-brands fa-instagram"></i></a>
+					<a href=""><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+				<a href="images/Saira Rizwan CV.docx" download class="btn" class="btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="your name" required>
+					<input type="email" name="Email" placeholder="your email" required>
+					<textarea name="Message" rows="6" placeholder="your message"></textarea>
+					<button type="submit">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+		<div class="copyright">
+		<p> copyright @saira by help of <i class="fa-solid fa-heart"></i>this tutorial</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	var tablinks=document.getElementsByClassName("tab-links");
+	var tabcontents=document.getElementsByClassName("tab-contents");
+	function opentab(tabname) {
+		for (tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for (tabcontent of tabcontents) {
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+
+</script>
+<script>
+	var sidemeu=document.getElementById("sidemenu");
+	function openmenu(){
+		sidemeu.style.right="0";
+
+
+	}
+	function closemenu(){
+		sidemeu.style.right="-200px";
+		
+
+	}
+
+
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzQToNt_3LnrQhU39tg4M85X3sgT_bINiSXzR3qiYp6rQRIFGoYjalRMdRv1swXBwjX/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML="Message sent succesfully"
+      	setTimeout(function(){
+      		msg.innerHTML=""
+
+      	},5000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
